@@ -16,6 +16,8 @@
 		8DDE6A8E2A8A2A46002158F3 /* pageViewController_in_sameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDE6A8D2A8A2A46002158F3 /* pageViewController_in_sameTests.swift */; };
 		8DDE6A982A8A2A46002158F3 /* pageViewController_in_sameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDE6A972A8A2A46002158F3 /* pageViewController_in_sameUITests.swift */; };
 		8DDE6A9A2A8A2A46002158F3 /* pageViewController_in_sameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDE6A992A8A2A46002158F3 /* pageViewController_in_sameUITestsLaunchTests.swift */; };
+		8DDE6AA72A8A2A77002158F3 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDE6AA62A8A2A77002158F3 /* DataViewController.swift */; };
+		8DDE6AA92A8A2A8F002158F3 /* pageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDE6AA82A8A2A8F002158F3 /* pageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8DDE6A932A8A2A46002158F3 /* pageViewController in sameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pageViewController in sameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDE6A972A8A2A46002158F3 /* pageViewController_in_sameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageViewController_in_sameUITests.swift; sourceTree = "<group>"; };
 		8DDE6A992A8A2A46002158F3 /* pageViewController_in_sameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageViewController_in_sameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8DDE6AA62A8A2A77002158F3 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		8DDE6AA82A8A2A8F002158F3 /* pageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				8DDE6A762A8A2A44002158F3 /* AppDelegate.swift */,
 				8DDE6A782A8A2A44002158F3 /* SceneDelegate.swift */,
 				8DDE6A7A2A8A2A44002158F3 /* ViewController.swift */,
+				8DDE6AA62A8A2A77002158F3 /* DataViewController.swift */,
+				8DDE6AA82A8A2A8F002158F3 /* pageViewController.swift */,
 				8DDE6A7C2A8A2A44002158F3 /* Main.storyboard */,
 				8DDE6A7F2A8A2A46002158F3 /* Assets.xcassets */,
 				8DDE6A812A8A2A46002158F3 /* LaunchScreen.storyboard */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DDE6AA72A8A2A77002158F3 /* DataViewController.swift in Sources */,
 				8DDE6A7B2A8A2A44002158F3 /* ViewController.swift in Sources */,
 				8DDE6A772A8A2A44002158F3 /* AppDelegate.swift in Sources */,
 				8DDE6A792A8A2A44002158F3 /* SceneDelegate.swift in Sources */,
+				8DDE6AA92A8A2A8F002158F3 /* pageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
